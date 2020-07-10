@@ -1,0 +1,6 @@
+file=app1
+
+#USR0 = [ 01 00 ]
+
+#add by jim   R/W psKey
+USR99 = [ 00 00 00 00 00 00 00 00 00 00 ]

@@ -1,0 +1,151 @@
+Deploying deploy to 'device://trb/usb2trb/174805/qcc512x'
+Using FLASH_CONFIG D:\3020\ADK6_4_2_26_Soul_20200703A\ADK6_4_2_26_Soul_L\apps\applications\earbud\64Mbit_default_flash_config.py
+Deploy all projects
+Building project: Project: sys_cfg : D:\3020\ADK6_4_2_26_Soul_20200703A\ADK6_4_2_26_Soul_L\apps\applications\earbud\qcc512x_qcc302x\common\cur_cfg_filesystem.x2p, config: filesystem
+Adding dependent project D:\3020\ADK6_4_2_26_Soul_20200703A\ADK6_4_2_26_Soul_L\apps\applications\earbud\qcc512x_qcc302x\common\cur_cfg_filesystem.x2p
+Processing project D:\3020\ADK6_4_2_26_Soul_20200703A\ADK6_4_2_26_Soul_L\apps\applications\earbud\qcc512x_qcc302x\common\cur_cfg_filesystem.x2p
+Copied D:\3020\ADK6_4_2_26_Soul_20200703A\ADK6_4_2_26_Soul_L\apps\applications\earbud\qcc512x_qcc302x\common\curator_config_filesystem.xuv to c:\users\lwy\appdata\local\temp\tmpk270ge\curator_config_filesystem.xuv
+Building project: Project: fw_cfg : D:\3020\ADK6_4_2_26_Soul_20200703A\ADK6_4_2_26_Soul_L\apps\applications\earbud\qcc512x_qcc302x\QCC3020-AA_DEV-BRD-R2-AA\fw_cfg_filesystem.x2p, config: filesystem
+Adding dependent project D:\3020\ADK6_4_2_26_Soul_20200703A\ADK6_4_2_26_Soul_L\apps\applications\earbud\qcc512x_qcc302x\QCC3020-AA_DEV-BRD-R2-AA\fw_cfg_filesystem.x2p
+Processing project D:\3020\ADK6_4_2_26_Soul_20200703A\ADK6_4_2_26_Soul_L\apps\applications\earbud\qcc512x_qcc302x\QCC3020-AA_DEV-BRD-R2-AA\fw_cfg_filesystem.x2p
+Copied D:\3020\ADK6_4_2_26_Soul_20200703A\ADK6_4_2_26_Soul_L\apps\applications\earbud\qcc512x_qcc302x\QCC3020-AA_DEV-BRD-R2-AA\firmware_config_filesystem_dfu.xuv to c:\users\lwy\appdata\local\temp\tmpk270ge\firmware_config_filesystem.xuv
+Building project: Project: dev_cfg : D:\3020\ADK6_4_2_26_Soul_20200703A\ADK6_4_2_26_Soul_L\apps\applications\earbud\qcc512x_qcc302x\QCC3020-AA_DEV-BRD-R2-AA\dev_cfg_filesystem.x2p, config: filesystem
+Adding dependent project D:\3020\ADK6_4_2_26_Soul_20200703A\ADK6_4_2_26_Soul_L\apps\applications\earbud\qcc512x_qcc302x\QCC3020-AA_DEV-BRD-R2-AA\dev_cfg_filesystem.x2p
+Processing project D:\3020\ADK6_4_2_26_Soul_20200703A\ADK6_4_2_26_Soul_L\apps\applications\earbud\qcc512x_qcc302x\QCC3020-AA_DEV-BRD-R2-AA\dev_cfg_filesystem.x2p
+Copied D:\3020\ADK6_4_2_26_Soul_20200703A\ADK6_4_2_26_Soul_L\apps\applications\earbud\qcc512x_qcc302x\QCC3020-AA_DEV-BRD-R2-AA\device_config_filesystem_dfu.xuv to c:\users\lwy\appdata\local\temp\tmpk270ge\device_config_filesystem.xuv
+Building project: Project: ps_cfg : D:\3020\ADK6_4_2_26_Soul_20200703A\ADK6_4_2_26_Soul_L\apps\applications\earbud\qcc512x_qcc302x\common\user_ps_filesystem.x2p, config: filesystem
+Adding dependent project D:\3020\ADK6_4_2_26_Soul_20200703A\ADK6_4_2_26_Soul_L\apps\applications\earbud\qcc512x_qcc302x\common\user_ps_filesystem.x2p
+Processing project D:\3020\ADK6_4_2_26_Soul_20200703A\ADK6_4_2_26_Soul_L\apps\applications\earbud\qcc512x_qcc302x\common\user_ps_filesystem.x2p
+Copied D:\3020\ADK6_4_2_26_Soul_20200703A\ADK6_4_2_26_Soul_L\apps\applications\earbud\qcc512x_qcc302x\common\user_ps_filesystem_dfu.xuv to c:\users\lwy\appdata\local\temp\tmpk270ge\user_ps_filesystem.xuv
+Building project: Project: ro_fs : D:\3020\ADK6_4_2_26_Soul_20200703A\ADK6_4_2_26_Soul_L\apps\applications\earbud\qcc512x_qcc302x\common\customer_ro_filesystem.x2p, config: filesystem
+Adding dependent project D:\3020\ADK6_4_2_26_Soul_20200703A\ADK6_4_2_26_Soul_L\apps\applications\earbud\qcc512x_qcc302x\common\customer_ro_filesystem.x2p
+Processing project D:\3020\ADK6_4_2_26_Soul_20200703A\ADK6_4_2_26_Soul_L\apps\applications\earbud\qcc512x_qcc302x\common\customer_ro_filesystem.x2p
+Copied D:\3020\ADK6_4_2_26_Soul_20200703A\ADK6_4_2_26_Soul_L\apps\applications\earbud\qcc512x_qcc302x\common\customer_ro_filesystem_dfu.xuv to c:\users\lwy\appdata\local\temp\tmpk270ge\customer_ro_filesystem.xuv
+Building project: Project: appsp0 : D:\3020\ADK6_4_2_26_Soul_20200703A\ADK6_4_2_26_Soul_L\images\apps0_firmware\common\apps0_firmware.x2p, config: prebuilt_image
+Adding dependent project D:\3020\ADK6_4_2_26_Soul_20200703A\ADK6_4_2_26_Soul_L\images\apps0_firmware\common\apps0_firmware.x2p
+Processing project D:\3020\ADK6_4_2_26_Soul_20200703A\ADK6_4_2_26_Soul_L\images\apps0_firmware\common\apps0_firmware.x2p
+D:\3020\ADK6_4_2_26_Soul_20200703A\ADK6_4_2_26_Soul_L\images\apps0_firmware\common\apps_p0_firmware.xuv
+Copied D:\3020\ADK6_4_2_26_Soul_20200703A\ADK6_4_2_26_Soul_L\images\apps0_firmware\common\apps_p0_firmware.xuv to c:\users\lwy\appdata\local\temp\tmpk270ge\apps_p0_firmware.xuv
+Building project: Project: earbud : D:\3020\ADK6_4_2_26_Soul_20200703A\ADK6_4_2_26_Soul_L\apps\applications\earbud\qcc512x_qcc302x\QCC3020-AA_DEV-BRD-R2-AA\earbud.x2p, config: Soul_L
+Adding dependent project D:\3020\ADK6_4_2_26_Soul_20200703A\ADK6_4_2_26_Soul_L\apps\applications\earbud\qcc512x_qcc302x\QCC3020-AA_DEV-BRD-R2-AA\earbud.x2p
+Processing project D:\3020\ADK6_4_2_26_Soul_20200703A\ADK6_4_2_26_Soul_L\apps\applications\earbud\qcc512x_qcc302x\QCC3020-AA_DEV-BRD-R2-AA\earbud.x2p
+Loading elf symbols from D:\3020\ADK6_4_2_26_Soul_20200703A\ADK6_4_2_26_Soul_L\apps\applications\earbud\qcc512x_qcc302x\QCC3020-AA_DEV-BRD-R2-AA\depend_Soul_L_qcc512x_qcc302x\earbud.elf
+  .text_reset block starting at 0x00000000, 104 bytes
+  .slt block starting at 0x00000080, 8 bytes
+  .slt_app block starting at 0x00000088, 4 bytes
+  .text_tcm block starting at 0x0000008c, 390 bytes
+  .text block starting at 0x00000212, 406334 bytes
+  .const block starting at 0x00063550, 31056 bytes
+  .initc block starting at 0x0006aea0, 2292 bytes
+Done.
+Created c:\users\lwy\appdata\local\temp\tmpk270ge\earbud.xuv
+Building project: Project: deploy : D:\3020\ADK6_4_2_26_Soul_20200703A\ADK6_4_2_26_Soul_L\apps\applications\earbud\qcc512x_qcc302x\common\deploy.x2p, config: deploy
+Adding dependent project D:\3020\ADK6_4_2_26_Soul_20200703A\ADK6_4_2_26_Soul_L\apps\applications\earbud\qcc512x_qcc302x\common\deploy.x2p
+Processing project D:\3020\ADK6_4_2_26_Soul_20200703A\ADK6_4_2_26_Soul_L\apps\applications\earbud\qcc512x_qcc302x\common\deploy.x2p
+Device attach succeeded. Using TRB clock speed: 40MHz.
+
+flash0 
+{ 'encrypt': False,
+  'flash_device': { 'alt_image_offset': 4194304,
+                    'block_size': 65536,
+                    'boot_block_size': None},
+  'flash_image': { 'bank': 'bank0',
+                   'flash_image_xuv': 'D:\\3020\\ADK6_4_2_26_Soul_20200703A\\ADK6_4_2_26_Soul_L\\apps\\applications\\earbud\\qcc512x_qcc302x\\QCC3020-AA_DEV-BRD-R2-AA\\flash_image.xuv'},
+  'layout': [ ( 'curator_fs',
+                { 'authenticate': False,
+                  'capacity': 65536,
+                  'src_file': 'c:\\users\\lwy\\appdata\\local\\temp\\tmpk270ge\\curator_config_filesystem.xuv',
+                  'src_file_signed': False}),
+              ( 'apps_p0',
+                { 'authenticate': True,
+                  'capacity': 786432,
+                  'src_file': 'c:\\users\\lwy\\appdata\\local\\temp\\tmpk270ge\\apps_p0_firmware.xuv',
+                  'src_file_signed': True}),
+              ( 'apps_p1',
+                { 'authenticate': False,
+                  'capacity': 589824,
+                  'src_file': 'c:\\users\\lwy\\appdata\\local\\temp\\tmpk270ge\\earbud.xuv'}),
+              ( 'device_ro_fs',
+                { 'authenticate': False,
+                  'capacity': 65536,
+                  'inline_auth_hash': True,
+                  'src_file': 'c:\\users\\lwy\\appdata\\local\\temp\\tmpk270ge\\device_config_filesystem.xuv'}),
+              ( 'rw_config',
+                { 'capacity': 131072,
+                  'src_file': 'c:\\users\\lwy\\appdata\\local\\temp\\tmpk270ge\\user_ps_filesystem.xuv'}),
+              ('rw_fs', { 'capacity': 262144}),
+              ( 'ro_cfg_fs',
+                { 'authenticate': False,
+                  'capacity': 131072,
+                  'src_file': 'c:\\users\\lwy\\appdata\\local\\temp\\tmpk270ge\\firmware_config_filesystem.xuv'}),
+              ( 'ro_fs',
+                { 'authenticate': False,
+                  'capacity': 2031616,
+                  'src_file': 'c:\\users\\lwy\\appdata\\local\\temp\\tmpk270ge\\customer_ro_filesystem.xuv'})]}
+Padding c:\users\lwy\appdata\local\temp\tmpk270ge\earbud.xuv address 0x0 with [(104, 24)]
+Apps SQIF encryption Nonce dbb8c9dcf0c95025101e0b71915910ec
+Section apps_p0 len 572128 : hash c89d94aeb4f7c02235abe201788669fb
+Boot Image - offset 0x0, size 0x10000
+Image Header:
+Offset 0x00010000 curator_fs          capacity 0x00010000  size 0x00002a40  unused 0x0000d5c0
+Offset 0x00020000 apps_p0             capacity 0x000c0000  size 0x0008bad0  unused 0x00034530
+Offset 0x000e0000 apps_p1             capacity 0x00090000  size 0x0006b794  unused 0x0002486c
+Offset 0x00170000 device_ro_fs        capacity 0x00010000  size 0x00000144  unused 0x0000febc
+Offset 0x00180000 rw_config           capacity 0x00020000  size 0x00020000  unused 0x00000000
+Offset 0x001a0000 rw_fs               capacity 0x00040000  size 0x00040000  unused 0x00000000
+Offset 0x001e0000 ro_cfg_fs           capacity 0x00020000  size 0x000110e0  unused 0x0000ef20
+Offset 0x00200000 ro_fs               capacity 0x001f0000  size 0x0001938c  unused 0x001d6c74
+ apps_p0            Hash ptr    0x100 Hash size  0x8bad0
+
+Block size: 65536 Bytes
+
+     Name      |   Capacity    |     Used      |    Unused     |  Image size   |
+               |    Blocks     |    Blocks     |    Blocks     |    Bytes      |
+curator_fs     |       1       |       1       |       0       |      10816    |
+apps_p0        |      12       |       9       |       3       |     572112    |
+apps_p1        |       9       |       7       |       2       |     440212    |
+device_ro_fs   |       1       |       1       |       0       |        324    |
+rw_config      |       2       |       2       |       0       |     131072    |
+rw_fs          |       4       |       4       |       0       |     262144    |
+ro_cfg_fs      |       2       |       2       |       0       |      69856    |
+ro_fs          |      31       |       2       |      29       |     103308    |
+Totals:        |      62       |      28       |      34       |    1589844    |
+
+Writing 'D:\3020\ADK6_4_2_26_Soul_20200703A\ADK6_4_2_26_Soul_L\apps\applications\earbud\qcc512x_qcc302x\QCC3020-AA_DEV-BRD-R2-AA\flash_image.xuv'
+Build completed
+
+Program the apps SQIF with image: D:\3020\ADK6_4_2_26_Soul_20200703A\ADK6_4_2_26_Soul_L\apps\applications\earbud\qcc512x_qcc302x\QCC3020-AA_DEV-BRD-R2-AA\flash_image.xuv
+C:\qtil\ADK_QCC512X_QCC302X_WIN_6.4.2.26\tools\bin\nvscmd.exe burn D:\3020\ADK6_4_2_26_Soul_20200703A\ADK6_4_2_26_Soul_L\apps\applications\earbud\qcc512x_qcc302x\QCC3020-AA_DEV-BRD-R2-AA\flash_image.xuv -deviceid 4 0 -trb 174805 -nvstype sqif -norun
+nvscmd, version 3.2.2.144 Release
+Copyright (c) 2010-2019 Qualcomm Technologies International, Ltd.
+All Rights Reserved.
+Qualcomm Technologies International, Ltd. Confidential and Proprietary.
+
+
+==============================================================================
+ERROR: Driver IO timeout: could not read 1 transactions from device (Error Code: 3)
+==============================================================================
+==============================================================================
+ERROR: Error detecting chip type (Driver IO timeout: could not read 1 transactions from device)
+==============================================================================
+Failed
+
+Exception Name: CalledProcessError
+Traceback (most recent call last):
+  File "C:/qtil/ADK_QCC512X_QCC302X_WIN_6.4.2.26/tools/ubuild/ubuild.py", line 119, in main
+    return dep.deploy(proj_parser, dk_parser, parsed_args)
+  File "C:\qtil\ADK_QCC512X_QCC302X_WIN_6.4.2.26\tools\ubuild\maker\adk\deploy.py", line 494, in deploy
+    return deploy_to_device(proj_parser, dk_parser, parsed_args, build_output_folder)
+  File "C:\qtil\ADK_QCC512X_QCC302X_WIN_6.4.2.26\tools\ubuild\maker\adk\deploy.py", line 410, in deploy_to_device
+    return deploy_special_deploy_project(parsed_args, build_output_folder)
+  File "C:\qtil\ADK_QCC512X_QCC302X_WIN_6.4.2.26\tools\ubuild\maker\adk\deploy.py", line 386, in deploy_special_deploy_project
+    return deploy_single_image.main(args)
+  File "C:\qtil\ADK_QCC512X_QCC302X_WIN_6.4.2.26\tools\ubuild\maker\adk\deploy_single_image.py", line 153, in main
+    nvscmd.burn(apps_image, "apps")
+  File "C:\qtil\ADK_QCC512X_QCC302X_WIN_6.4.2.26\tools\ubuild\maker\adk\nvscmd.py", line 73, in burn
+    self._run("burn", subsys_name, image_xuv=image_xuv, reset_chip=reset_chip)
+  File "C:\qtil\ADK_QCC512X_QCC302X_WIN_6.4.2.26\tools\ubuild\maker\adk\nvscmd.py", line 70, in _run
+    subprocess.check_call(cmd)
+  File "C:\qtil\ADK_QCC512X_QCC302X_WIN_6.4.2.26\tools\python27\lib\subprocess.py", line 540, in check_call
+    raise CalledProcessError(retcode, cmd)
+CalledProcessError: Command '['C:\\qtil\\ADK_QCC512X_QCC302X_WIN_6.4.2.26\\tools\\bin\\nvscmd.exe', 'burn', 'D:\\3020\\ADK6_4_2_26_Soul_20200703A\\ADK6_4_2_26_Soul_L\\apps\\applications\\earbud\\qcc512x_qcc302x\\QCC3020-AA_DEV-BRD-R2-AA\\flash_image.xuv', '-deviceid', '4', '0', '-trb', '174805', '-nvstype', 'sqif', '-norun']' returned non-zero exit status 1

@@ -1,0 +1,134 @@
+
+
+
+
+
+
+
+
+
+
+primary_service {
+    uuid : 0x1801,
+    name : "GATT_SERVICE",
+    characteristic {
+        uuid : 0x2A05,
+        name : "GATT_SERVICE_CHANGED",
+        properties : [ indicate ],
+        client_config
+        {
+            name : "GATT_SERVICE_CHANGED_CLIENT_CONFIG",
+            flags : [ FLAG_IRQ ]
+        }
+    },
+
+    characteristic {
+        uuid : 0x2B29,
+        name : "GATT_CLIENT_SUPPORTED_FEATURES",
+        properties : [read, write],
+        flags : [FLAG_IRQ],
+        size_value : 1
+    }
+},
+
+
+
+
+primary_service {
+    uuid : 0x1800,
+    name : "GAP_SERVICE",
+    sdp : true,
+    characteristic {
+        uuid : 0x2A00,
+        name : "DEVICE_NAME",
+        flags : [ FLAG_IRQ ],
+        properties : [ read ]
+    },
+    characteristic {
+        uuid : 0x2A01,
+        name : "DEVICE_APPEARANCE",
+        flags : [ FLAG_IRQ ],
+        properties : [ read ]
+    }
+},
+
+
+
+
+
+
+
+
+
+primary_service {
+    uuid : 0x1100D10211E19B2300025B00A5A5,
+    name : "GAIA_SERVICE",
+    characteristic {
+        uuid : 0x1101D10211E19B2300025B00A5A5,
+        name : "GAIA_COMMAND_ENDPOINT",
+        flags : [ FLAG_IRQ, FLAG_DYNLEN, FLAG_ENCR_W ],
+        properties : [ write ],
+        value : 0x0
+    },
+ characteristic {
+        uuid : 0x1102D10211E19B2300025B00A5A5,
+        name : "GAIA_RESPONSE_ENDPOINT",
+        flags : [ FLAG_IRQ, FLAG_DYNLEN ],
+        properties : [ read, notify ],
+        value : 0x0,
+        client_config
+        {
+            name : "GAIA_RESPONSE_CLIENT_CONFIG",
+            flags : [ FLAG_IRQ , FLAG_DYNLEN ]
+        }
+    },
+ characteristic {
+        uuid : 0x1103D10211E19B2300025B00A5A5,
+        name : "GAIA_DATA_ENDPOINT",
+        flags : [ FLAG_IRQ, FLAG_DYNLEN, FLAG_ENCR_W, FLAG_ENCR_R ],
+        properties : [ write_cmd, notify, read ],
+        value : 0x0,
+        client_config
+        {
+            name : "GAIA_DATA_CLIENT_CONFIG",
+            flags : [ FLAG_IRQ , FLAG_DYNLEN ]
+        }
+ }
+},
+
+
+
+
+
+
+
+primary_service {
+    uuid : 0x180D,
+    name : "HEART_RATE_SERVICE",
+
+
+
+        characteristic {
+            uuid : 0x2A37,
+            name : "HEART_RATE_MEASUREMENT",
+            flags : [ FLAG_IRQ, FLAG_DYNLEN ],
+            properties : [ notify ],
+            value : 0x0,
+
+            client_config
+            {
+                name : "HEART_RATE_MEASUREMENT_CLIENT_CONFIG",
+                flags : FLAG_IRQ
+            }
+        },
+
+
+
+        characteristic {
+            uuid : 0x2A38,
+            name : "BODY_SENSOR_LOCATION",
+            properties : [ read ],
+            size_value : 0x01,
+            value : 0x05
+            }
+    }

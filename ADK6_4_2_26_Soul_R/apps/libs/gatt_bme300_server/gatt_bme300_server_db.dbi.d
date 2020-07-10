@@ -1,0 +1,1 @@
+gatt_bme300_server/gatt_bme300_server_db.dbi_: gatt_bme300_server/gatt_bme300_server_db.dbi gatt_bme300_server/gatt_bme300_server_uuids.h

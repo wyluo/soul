@@ -1,0 +1,5 @@
+---- appPeerSync Matches (4 in 1 files) ----
+appPeerSyncMsgDebug in av_headset_peer_sync.c (apps\applications\earbud) :     DEBUG_LOGF("    appPeerSync txseq %x rxseq %x",
+appPeerSyncMsgDebug in av_headset_peer_sync.c (apps\applications\earbud) :     DEBUG_LOGF("    appPeerSync battery %u, bdaddr %04x%08x, version %04x",
+appPeerSyncMsgDebug in av_headset_peer_sync.c (apps\applications\earbud) :     DEBUG_LOGF("    appPeerSync (startup|RIP|a2dp_conn|avrcp_conn|hfp_conn|a2dp_streaming|sco|dfu)=%08x", bitfield);
+appPeerSyncMsgDebug in av_headset_peer_sync.c (apps\applications\earbud) :     DEBUG_LOGF("    appPeerSync (in_case|in_ear|is_pairing|have_handset_pairing|advertising|BLE)=%06x", bitfield);

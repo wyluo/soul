@@ -1,0 +1,41 @@
+#ifndef __GATT_BME300_SERVER_DB_DBI__
+#define __GATT_BME300_SERVER_DB_DBI__
+
+
+ #include "gatt_bme300_server_uuids.h"
+ 
+/* Primary service declaration of BME300 service */
+primary_service {
+    uuid : UUID_BME300_SERVICE,
+    name : "BME300_SERVICE",
+    sdp  : true,
+        /* characteristic */
+
+        characteristic {
+            uuid        : UUID_BME300_RX_CHARACTERISTIC,
+            name        : "BME300_UART_RX",
+            flags       : [ FLAG_IRQ, FLAG_DYNLEN ],
+            properties  : [ write ],
+            value       : 0x0,
+            client_config
+            {
+            name  : "BME300_RX_CLIENT_CONFIG",
+            flags : [ FLAG_IRQ , FLAG_DYNLEN ]
+            }
+        },
+
+        characteristic {
+            uuid        : UUID_BME300_TX_CHARACTERISTIC,
+            name        : "BME300_UART_TX",
+            flags       : [ FLAG_IRQ, FLAG_DYNLEN ],
+            properties  : [ notify ],
+            value       : 0x0,
+            client_config
+            {
+            name  : "BME300_TX_CLIENT_CONFIG",
+            flags : [ FLAG_IRQ , FLAG_DYNLEN ]
+            }
+        }
+    },
+
+#endif /* __GATT_BME300_SERVER_DB_DBI__ */

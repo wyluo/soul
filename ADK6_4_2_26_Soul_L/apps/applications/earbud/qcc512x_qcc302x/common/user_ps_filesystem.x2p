@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<project name="user_ps_filesystem" path="">
+    <configurations defaultKit="kitres://{8c4e77ed-c5b5-4e4b-a9b2-3c8086459e75}">
+        <configuration name="filesystem" kit="kitres://{8c4e77ed-c5b5-4e4b-a9b2-3c8086459e75}" options="build|deploy|default">
+            <deployProject>deploy</deployProject>
+            <devkitConfiguration>filesystem</devkitConfiguration>
+            <devkitGroup>kitres://{bbac163c-41be-4ce7-b236-236f15ff18ca}</devkitGroup>
+            <devkitPath>C:/qtil/ADK_QCC512X_QCC302X_WIN_6.4.2.26</devkitPath>
+            <devkitRevision>1576071077</devkitRevision>
+            <property name="BUILD_TYPE"></property>
+            <property name="DBG_CORE"></property>
+            <property name="DEFS"></property>
+            <property name="FS_ROOT"></property>
+            <property name="HW_VARIANT"></property>
+            <property name="INCPATHS"></property>
+            <property name="LIBPATHS"></property>
+            <property name="LIBS"></property>
+            <property name="OUTPUT"></property>
+            <property name="OUTPUT_TYPE"></property>
+            <property name="PRESERVED_LIBS"></property>
+            <property name="STRIP_SYMBOLS"></property>
+            <property name="SW_VARIANT"></property>
+            <property name="TYPE">user_ps</property>
+            <property name="system_label">QCC512X_CONFIG</property>
+        </configuration>
+    </configurations>
+    <file path="anc_tuning_config.htf"/>
+    <file path="cvc_2mic.htf"/>
+    <file path="leakthrough_config.htf"/>
+    <file path="subsys7_psflash.htf"/>
+</project>

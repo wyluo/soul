@@ -1,0 +1,10 @@
+
+Exception Name: NoDeviceDetected
+Traceback (most recent call last):
+  File "C:/qtil/ADK_QCC512X_QCC302X_WIN_6.4.2.26/tools/ubuild/ubuild.py", line 119, in main
+    return dep.deploy(proj_parser, dk_parser, parsed_args)
+  File "C:\qtil\ADK_QCC512X_QCC302X_WIN_6.4.2.26\tools\ubuild\maker\adk\deploy.py", line 494, in deploy
+    return deploy_to_device(proj_parser, dk_parser, parsed_args, build_output_folder)
+  File "C:\qtil\ADK_QCC512X_QCC302X_WIN_6.4.2.26\tools\ubuild\maker\adk\deploy.py", line 395, in deploy_to_device
+    raise NoDeviceDetected("IDE has not detected any attached device!")
+NoDeviceDetected: IDE has not detected any attached device!

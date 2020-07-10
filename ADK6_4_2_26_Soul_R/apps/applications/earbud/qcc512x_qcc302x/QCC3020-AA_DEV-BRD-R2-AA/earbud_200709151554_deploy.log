@@ -1,0 +1,84 @@
+Deploying Soul_R to 'device://trb/usb2trb/174805/qcc3020'
+Using FLASH_CONFIG D:\3020\ADK6_4_2_26_Soul_20200703A\ADK6_4_2_26_Soul_R\apps\applications\earbud\64Mbit_default_flash_config.py
+Processing project D:\3020\ADK6_4_2_26_Soul_20200703A\ADK6_4_2_26_Soul_R\apps\applications\earbud\qcc512x_qcc302x\QCC3020-AA_DEV-BRD-R2-AA\earbud.x2p
+Loading elf symbols from D:\3020\ADK6_4_2_26_Soul_20200703A\ADK6_4_2_26_Soul_R\apps\applications\earbud\qcc512x_qcc302x\QCC3020-AA_DEV-BRD-R2-AA\depend_Soul_R_qcc512x_qcc302x\earbud.elf
+  .text_reset block starting at 0x00000000, 104 bytes
+  .slt block starting at 0x00000080, 8 bytes
+  .slt_app block starting at 0x00000088, 4 bytes
+  .text_tcm block starting at 0x0000008c, 390 bytes
+  .text block starting at 0x00000212, 408918 bytes
+  .const block starting at 0x00063f68, 33568 bytes
+  .initc block starting at 0x0006c288, 2172 bytes
+Done.
+Created c:\users\lwy\appdata\local\temp\tmp0rdsxv\earbud.xuv
+flash0 
+{ 'encrypt': False,
+  'flash_device': { 'alt_image_offset': 4194304,
+                    'block_size': 65536,
+                    'boot_block_size': None},
+  'flash_image': { 'bank': 'bank0',
+                   'flash_image_xuv': 'c:\\users\\lwy\\appdata\\local\\temp\\tmpil06ud\\flash_image.xuv'},
+  'layout': [ ( 'curator_fs',
+                { 'authenticate': False,
+                  'capacity': 65536,
+                  'src_file_signed': False}),
+              ( 'apps_p0',
+                { 'authenticate': True,
+                  'capacity': 786432,
+                  'src_file_signed': True}),
+              ( 'apps_p1',
+                { 'authenticate': False,
+                  'capacity': 589824,
+                  'src_file': 'c:\\users\\lwy\\appdata\\local\\temp\\tmp0rdsxv\\earbud.xuv'}),
+              ( 'device_ro_fs',
+                { 'authenticate': False,
+                  'capacity': 65536,
+                  'inline_auth_hash': True}),
+              ('rw_config', { 'capacity': 131072}),
+              ('rw_fs', { 'capacity': 262144}),
+              ('ro_cfg_fs', { 'authenticate': False, 'capacity': 131072}),
+              ('ro_fs', { 'authenticate': False, 'capacity': 2031616})]}
+Padding c:\users\lwy\appdata\local\temp\tmp0rdsxv\earbud.xuv address 0x0 with [(104, 24)]
+Apps SQIF encryption Nonce 83666c50d9626ea98d567961ea846d9a
+Boot Image - offset 0x0, size 0x10000
+Image Header:
+Offset 0x00010000 curator_fs          capacity 0x00010000  size 0x00010000  unused 0x00000000
+Offset 0x00020000 apps_p0             capacity 0x000c0000  size 0x000bfff0  unused 0x00000010
+Offset 0x000e0000 apps_p1             capacity 0x00090000  size 0x0006cb04  unused 0x000234fc
+Offset 0x00170000 device_ro_fs        capacity 0x00010000  size 0x00010000  unused 0x00000000
+Offset 0x00180000 rw_config           capacity 0x00020000  size 0x00020000  unused 0x00000000
+Offset 0x001a0000 rw_fs               capacity 0x00040000  size 0x00040000  unused 0x00000000
+Offset 0x001e0000 ro_cfg_fs           capacity 0x00020000  size 0x00020000  unused 0x00000000
+Offset 0x00200000 ro_fs               capacity 0x001f0000  size 0x001f0000  unused 0x00000000
+ apps_p0            Hash ptr    0x100 Hash size  0xbfff0
+
+Block size: 65536 Bytes
+
+     Name      |   Capacity    |     Used      |    Unused     |  Image size   |
+               |    Blocks     |    Blocks     |    Blocks     |    Bytes      |
+curator_fs     |       1       |       1       |       0       |      65536    |
+apps_p0        |      12       |      12       |       0       |     786416    |
+apps_p1        |       9       |       7       |       2       |     445188    |
+device_ro_fs   |       1       |       1       |       0       |      65536    |
+rw_config      |       2       |       2       |       0       |     131072    |
+rw_fs          |       4       |       4       |       0       |     262144    |
+ro_cfg_fs      |       2       |       2       |       0       |     131072    |
+ro_fs          |      31       |      31       |       0       |    2031616    |
+Totals:        |      62       |      60       |       2       |    3918580    |
+
+Writing 'c:\users\lwy\appdata\local\temp\tmpil06ud\flash_image.xuv'
+Build completed
+
+C:\qtil\ADK_QCC512X_QCC302X_WIN_6.4.2.26\tools\bin\nvscmd.exe burn c:\users\lwy\appdata\local\temp\tmpil06ud\flash_image.xuv -deviceid 4 0 -trb 174805 -nvstype sqif
+nvscmd, version 3.2.2.144 Release
+Copyright (c) 2010-2019 Qualcomm Technologies International, Ltd.
+All Rights Reserved.
+Qualcomm Technologies International, Ltd. Confidential and Proprietary.
+
+
+Program the SQIF with a single XUV file...
+......
+Verify the NVS against a single file...
+.Verify Passed
+
+Success
